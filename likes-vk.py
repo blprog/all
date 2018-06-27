@@ -13,7 +13,7 @@ my_login = "Example"   # Ваш логин
 my_password = "qwerty" # Ваш пароль
 
 def auth_handler():
-    key = input("Введите проверочный код двуфакторной авторизации:: ")
+    key = input("Введите проверочный код двухфакторной авторизации:: ")
     remember_device = True
     return key, remember_device
 
