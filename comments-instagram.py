@@ -32,7 +32,6 @@ c = 0
 media=agent.getMedia(account, count=10000)
 for post in media[0]:
     p += 1
-    print(p)
     comments = getComments(post)
     if comments == 0:
         pass
